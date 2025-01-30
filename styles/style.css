@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13,110,253,.25);
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-2px);
+}
+
+.btn-submit.btn-secondary {
+    background-color: #198754;  /* Cor verde do Bootstrap */
+}
+
+.btn-submit.btn-secondary:hover {
+    background-color: #157347;  /* Tom mais escuro do verde para o hover */
+    transform: translateY(-2px);
+}
+
+.input-group {
+    display: flex;
+    align-items: stretch;
+}
+
+.btn-copy {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-copy:hover {
+    background-color: #f8f9fa;
+    border-color: #0d6efd;
+}
+
+.copy-icon {
+    width: 20px;
+    height: 20px;
+}
